@@ -519,6 +519,7 @@ Okay, now you understand what's going on, so we can move on and implement it ins
  ┊3┊3┊
 -┊4┊ ┊import templateUrl from './partiesList.html';
 +┊ ┊4┊import template from './partiesList.html';
+ + import { Parties } from '../../../../collections/parties';
  ┊5┊5┊
  ┊6┊6┊class PartiesList {
  ┊7┊7┊  constructor($scope, $reactive) {
